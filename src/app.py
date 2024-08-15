@@ -16,7 +16,7 @@ def main():
     st.markdown("<h1 style='display: block; color: #b0b0b0; text-align: center;'>CodeGenie: An AI Wizard</h1>", unsafe_allow_html=True)
     st.markdown("<h5 style='display: block; color: #e7e7e7; text-align: center;'>Magically Generate, Execute, and Debug Python Code with One Click!</h5>", unsafe_allow_html=True)
 
-    user_prompt = st.text_area("Enter your Python code prompt:", "Write a Python function that reads the file in a given directory and then returns the head of csv.")
+    user_prompt = st.text_area("Enter your Python code prompt:", "Generate a function to convert the given string to upper case.")
 
     if st.button("Generate Code"):
         with st.spinner('Generating code...'):
