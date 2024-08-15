@@ -144,8 +144,8 @@ PySocks==1.7.1
 pytest==8.3.2
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
-pytz==2024.0
-pywin32==306
+pytz==2024.1
+pywin32
 PyYAML==6.0.1
 pyzmq==26.1.0
 queuelib==1.7.0
