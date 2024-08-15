@@ -47,5 +47,5 @@ header {visibility: hidden;}
 }
 </style>
 <div class="footer">
-<p><a style='display: block; color: #111111; text-align: center;' href="" target="_blank"> &copy All rights reserved by Ritesh Manish Patil</a></p>
+<p><a style='display: block; color: #111111; text-align: center;' href="https://github.com/RiteshGenAI" target="_blank"> &copy All rights reserved by Ritesh Manish Patil</a></p>
 </div>
