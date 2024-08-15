@@ -8,7 +8,7 @@ If you discover a security vulnerability in **CodeGenie**, please follow these s
 
 1. **Do not disclose the vulnerability publicly** until it has been addressed. This helps to protect the community from potential exploitation.
 
-2. **Report the vulnerability privately** by sending an email to our security team at: [security@codegenie.example.com](mailto:riteshpatilgenaiofficial@gmail.com). 
+2. **Report the vulnerability privately** by sending an email to our security team at: [riteshpatilgenaiofficial@gmail.com](mailto:riteshpatilgenaiofficial@gmail.com). 
 
 3. **Include the following information** in your report:
    - A detailed description of the vulnerability.
@@ -44,6 +44,6 @@ Our [Code of Conduct](CODE_OF_CONDUCT.md) applies to all interactions related to
 
 We appreciate the efforts of security researchers and contributors who help improve the security of **CodeGenie**. We will recognize and credit individuals who report vulnerabilities responsibly, subject to their consent.
 
-For any questions or further information regarding security, please contact us at [security@codegenie.example.com](mailto:riteshpatilgenaiofficial@gmail.com).
+For any questions or further information regarding security, please contact us at [riteshpatilgenaiofficial@gmail.com](mailto:riteshpatilgenaiofficial@gmail.com).
 
 Thank you for helping us keep **CodeGenie** secure!
