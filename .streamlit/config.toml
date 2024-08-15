@@ -1,0 +1,12 @@
+[server]
+port = 8501
+baseUrlPath = "PromptEcosystem"
+runOnSave = true
+
+[theme]
+base = "dark"
+primaryColor = "#FFFFFF"
+backgroundColor = "#525252"
+#secondaryBackgroundColor = "#3d3d3d"
+textColor = "#FFFFFF"
+font = "serif"
