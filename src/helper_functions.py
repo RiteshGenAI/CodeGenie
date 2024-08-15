@@ -51,13 +51,13 @@ def prepare_code_for_execution(code, user_inputs):
 
 def execute_code(code, timeout=3000):
     try:
-        result = subprocess.run([sys.executable, '-c', code], capture_output=True, text=True, timeout=timeout)
+        result = subprocess.run([f"{sys.executable}", '-c', code], capture_output=True, text=True, timeout=timeout)
         if result.returncode != 0:
             if "ModuleNotFoundError" in result.stderr:
                 missing_modules = extract_missing_modules(result.stderr)
                 for module in missing_modules:
                     install_module(module)
-                result = subprocess.run([sys.executable, '-c', code], capture_output=True, text=True, timeout=timeout)
+                result = subprocess.run([f"{sys.executable}", '-c', code], capture_output=True, text=True, timeout=timeout)
                 if result.returncode != 0:
                     return False, result.stderr
             else:
