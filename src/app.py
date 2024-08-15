@@ -55,7 +55,7 @@ def main():
                         st.success("Task completed successfully!")
                         break
                     else:
-                        error_message = handle_execution_errors(message)
+                        error_message = hlpr_func.handle_execution_errors(message)
                         st.error(f"Error occurred:\n{error_message}")
                         if "ModuleNotFoundError" in message:
                             hlpr_func.handle_missing_modules(message)
