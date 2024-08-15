@@ -1,34 +1,6 @@
 import streamlit as st
 import helper_functions as hlpr_func
 
-
-
-def handle_execution_errors(error_message):
-    """Handle and display error messages based on the error type."""
-    if "SyntaxError" in error_message:
-        return "Syntax Error detected. Please review the generated code for potential issues."
-    
-    elif "TypeError" in error_message:
-        return ("Type Error detected. Ensure that the function is being called with the correct argument types.\n"
-                "Example: Passing an integer where a string is expected could cause this issue.")
-    
-    elif "NameError" in error_message:
-        return "Name Error: A variable or function is not defined. Please ensure that all names used in the code are properly defined."
-    
-    elif "ModuleNotFoundError" in error_message:
-        return "Module Not Found: The code is trying to use a Python module that is not installed."
-    
-    elif "IndexError" in error_message:
-        return ("Index Error: The code is trying to access an index that doesn't exist. This often happens when working with lists or arrays.")
-    
-    elif "KeyError" in error_message:
-        return ("Key Error: The code is trying to access a dictionary key that doesn't exist. Make sure you're accessing valid keys.")
-    
-    else:
-        return "An unknown error occurred. Please check the code and inputs."
-
-
-
 def main():
     st.set_page_config(
         page_title="CodeGenie",
