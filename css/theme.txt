@@ -1,0 +1,51 @@
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+.overflow{
+    inset: 0px;
+}
+.appview-container .main .block-container {
+    padding-top: 0rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    padding-bottom: 0rem;
+}
+[data-testid="stHorizontalBlock"] {
+    align-items: center;
+}
+[data-testid="stVerticalBlock"]{
+    gap: 0.5rem;
+    padding-bottom: 5rem;
+}
+.css-1v12ei0 {
+  /* Additional styles specific to the element with this class */
+  /* For example: */
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.stSpinner{
+    padding-left: 100px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 100px;
+    text-align: center;
+}
+.footer{
+    position: fixed;
+    left: 0px;
+    bottom: -10px;
+    width: 100%;
+    background-color: #b0b0b0;
+    color: #FFFFFF;
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    z-index: 9999;
+}
+</style>
+<div class="footer">
+<p><a style='display: block; color: #111111; text-align: center;' href="" target="_blank"> &copy All rights reserved by Ritesh Manish Patil</a></p>
+</div>
