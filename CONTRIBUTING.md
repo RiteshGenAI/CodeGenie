@@ -1,7 +1,3 @@
-Certainly! Here's a `CONTRIBUTING.md` file for your project:
-
----
-
 # Contributing to CodeGenie
 
 Thank you for considering contributing to **CodeGenie**! We welcome contributions from the community to improve and expand this project. Below are guidelines to help you get started.
