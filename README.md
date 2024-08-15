@@ -10,6 +10,11 @@
 - **Interactive Input Handling**: Provide values for function parameters interactively.
 - **Retry Mechanism**: Multiple attempts to ensure successful code execution.
 
+## Demo
+
+Check out the demo of the application: [CodeGenie](https://codegenieai.streamlit.app/)
+
+
 ## Installation
 
 1. **Clone the repository:**
